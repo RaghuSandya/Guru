@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="Ecommerce.EcomD2">
+        <methods>
+          <include name="Xperia"/>
+          <include name="CloseBrowser"/>
+          <include name="BrowserOpen"/>
+          <include name="MobileLogin"/>
+        </methods>
+      </class> <!-- Ecommerce.EcomD2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
